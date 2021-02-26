@@ -1173,9 +1173,10 @@ void onBtnClickedRezult(GtkButton * btn1, gpointer main_entry) {
 void onShowAboutWindow (GtkMenuItem *about_window, gpointer about) {
     gtk_widget_show_all (about);
 }
+
 // Закрытие окна About
 void on_window2_delete_event (GtkWidget *about)
-{
+{	
 gtk_widget_hide(about); // Подменяем уничтожение на сворачивание
 }
 
